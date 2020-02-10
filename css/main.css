@@ -1,0 +1,33 @@
+@charset "uft-8";
+
+/*Fonts*/
+@font-face {
+	font-family: PlayFairDisplay-Regular;
+	src:url(..FONTS/PlayFairDisplay-Regular.ttf);
+	font-size: 16px;
+}
+/*main*/
+.container{
+	width:1200;
+	height:3840;
+	background: white;
+}
+/*header*/
+#logo{
+
+}
+#mainNav{
+	display: inline-block;
+	text-decoration: none;
+	font-family: "PlayFairDisplay-Regular", sans-serif;
+	word-spacing: 20px;
+}
+#imgOne{
+	display: inline-block;
+	margin: 0 auto;
+}
+/*body*/
+h2 {
+	font-family: PlayFairDispay-Regular;
+	font-size: 16px;
+}
